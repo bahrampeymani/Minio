@@ -91,3 +91,7 @@ WantedBy=multi-user.target
 ```
 
 
+
+
+# Install single node
+
