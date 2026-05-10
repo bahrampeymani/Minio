@@ -91,7 +91,12 @@ WantedBy=multi-user.target
 ```
 
 
-
-
 # Install single node
+- same as cluster else edit /etc/default/minio
+```
+MINIO_VOLUMES="/minio/disk1"
+MINIO_OPTS="--console-address :9001"
+MINIO_ROOT_USER=adminbkp
+MINIO_ROOT_PASSWORD=xxxxxxxxxxxx
+```
 
